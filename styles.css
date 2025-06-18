@@ -15,6 +15,7 @@
 
 .carousel-images {
     display: flex;
+    object-fit: cover;
 }
 
 .carousel-images img {
