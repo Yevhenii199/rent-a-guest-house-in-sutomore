@@ -2,6 +2,20 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
 .header-btn {
     display: flex;
     justify-content: flex-end;
@@ -53,12 +67,12 @@
 .button-lang {
     width: 80px;
     height: 20px;
-    border-radius: 6px;
     font-size: 12px;
     font-weight: 400;
     text-align: center;
-    background: none;
     align-content: center;
+    color: white;
+    margin-right: 5px;
 }
 
 .button-lang:hover {
@@ -87,7 +101,6 @@ header {
     text-align: center;
     /* max-width: 1600px; */
     margin: 0 auto;
-    border-radius: 8px;
     padding: 1rem;
 }
 
@@ -96,7 +109,6 @@ header {
     /* max-width: 1600px; */
     margin: 0 auto;
     background-color: #0077b6;
-    border-radius: 8px;
 }
 
 .room-card {
@@ -109,6 +121,8 @@ header {
 
 .room-details {
     padding: 1rem;
+   
+   /* color: aqua; */
 }
 
 .room-details h2 {
