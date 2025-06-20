@@ -66,8 +66,8 @@ p {
 }
 
 .button-lang {
-    width: 80px;
-    height: 20px;
+    width: 90px;
+    height: auto;
     font-size: 12px;
     font-weight: 400;
     text-align: center;
@@ -121,7 +121,7 @@ header {
 }
 
 .room-details {
-    padding: 1rem;
+    padding: 0.6rem;
 }
 
 .room-details h2 {
