@@ -62,14 +62,13 @@ p {
 }
 
 .button-lang {
-    width: 90px;
+    width: 92px;
     height: 20px;
     font-size: 12px;
     font-weight: 400;
     text-align: center;
     align-content: center;
     color: white;
-    margin-right: 5px;
 }
 
 .button-lang:hover {
@@ -155,6 +154,10 @@ header {
     font-weight: bold;
 }
 
+.contact-buttons a.facebook {
+    background-color:#1877f2;
+}
+
 .contact-buttons a.telegram {
     background-color: #0088cc;
 }
@@ -164,7 +167,7 @@ header {
 }
 
 .contact-buttons a.gmail {
-    background-color: #cd5700;
+    background-color: #ea4335;
 }
 
 @media (min-width: 768px) {
@@ -172,5 +175,8 @@ header {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 1rem;
+    }
+    .header-btn {
+        justify-content: flex-end;
     }
 }
