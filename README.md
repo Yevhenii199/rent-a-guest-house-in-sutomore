@@ -44,14 +44,14 @@ cd rent-a-guest-house-in-sutomore
 ## 📁 Folder Structure
 
 ```
-shop-handmade/
+rent-a-guest-house-in-sutomore/
 ├── css/
 │   └── styles.css        # Website styles
 ├── images/               # Project images 
 ├── index.html            # Main page (English version)
 ├── index_sr.html         # Russian version of the main page
 ├── index_ru.html         # Serbian version of the main page
-└── README.md             # This file
+└── README.md             
 ```
 
 ## 📧 Contact For questions or suggestions, reach out at gshijanov5@gmail.com
